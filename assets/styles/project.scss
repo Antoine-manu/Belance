@@ -1,0 +1,22 @@
+.widget{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    &__menu{
+        width: 20vw;
+
+        &>ul{
+            list-style-type: none;
+            &>li {
+                padding: 2%;
+            }
+        }
+    }
+
+    &__container{
+        width: 100%;
+    }
+}
